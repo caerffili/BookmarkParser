@@ -10,6 +10,8 @@ namespace BookmarkParser
     {
         static void Main(string[] args)
         {
+            Engine eng = new Engine(@"Z:\Documents\Bookmarks");
+            Console.ReadKey();
         }
     }
 }
